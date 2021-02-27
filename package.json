@@ -1,16 +1,26 @@
 {
-  "name": "2-bootstrap",
+  "name": "nucampsite",
   "version": "1.0.0",
-  "description": "This is a wbesite for the fictional campsite review site NuCamp.",
-  "main": "index.html",
+  "description": "This is a review site for NuCamp",
+  "main": "index.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyhat4/nucampsite.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "font-awesome": "^4.7.0"
-  }
+  "bugs": {
+    "url": "https://github.com/luckyhat4/nucampsite/issues"
+  },
+  "homepage": "https://github.com/luckyhat4/nucampsite#readme"
 }
